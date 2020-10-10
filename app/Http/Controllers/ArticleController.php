@@ -13,7 +13,7 @@ class ArticleController extends Controller
      */
     public function index()
     {
-        $response = ['message' =>  '<function name> function'];
+        $response = ['message' =>  'article index'];
         return response($response, 200);
     }
 
